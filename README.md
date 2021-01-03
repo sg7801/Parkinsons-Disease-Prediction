@@ -11,7 +11,7 @@ Parkinson's Disease is a brain disorder that targets the nervous system of human
 
 It is a multivarite dataset that contains the range of biomedical voice measurements of 31 people, out of which 23 had Parkinson's disease. Each column is itself a voice measure and rows correspond to 195 voice recordings from those individuals.
 
-![parkinson's stages](https://user-images.githubusercontent.com/61888364/103487967-1ce2ff00-4e2f-11eb-85f7-ee3d97d3fa6d.png)
+![parkinson's stages](https://user-images.githubusercontent.com/61888364/103488601-f2e00b80-4e33-11eb-9baa-5f9599c82de0.png)
 
 ### Citation: 
 Exploiting Nonlinear Recurrence and Fractal Scaling Properties for Voice Disorder Detection', Little MA, McSharry PE, Roberts SJ, Costello DAE, Moroz IM. BioMedical Engineering OnLine 2007, 6:23 (26 June 2007)
