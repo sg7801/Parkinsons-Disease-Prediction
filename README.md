@@ -41,5 +41,23 @@ Since the dataset was available in ASCII CSV format, therefore it has been provi
 Firstly, We used the **TabularDatasetFactory** to create a dataset from the provided link. Then we split the train and test sets and upload them to datastore. Then, we define the task as per the below mentioned code.
 
 These are the settings along their defination and reasons why we chose them for our AutoML Run:
+```
+automl_settings = {
+    "n_cross_validations": 5,
+    "experiment_timeout_minutes" :20,
+    "primary_metric": 'accuracy',
+    "max_concurrent_iterations": 4,
+}
+automl_config = AutoMLConfig(
+    task="classification",
+    compute_target=compute,
+    enable_early_stopping= True,
+    max_cores_per_iteration=-1,
+    training_data=training_data,
+    label_column_name="status",
+    **automl_settings
+    )
+```
+<br>
 
-
+![automlsettings](https://user-images.githubusercontent.com/61888364/103489212-c975ae80-4e38-11eb-8cf8-36dca5859860.jpg)
