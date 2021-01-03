@@ -40,7 +40,7 @@ Since the dataset was available in ASCII CSV format, therefore it has been provi
 
 Firstly, We used the **TabularDatasetFactory** to create a dataset from the provided link. Then we split the train and test sets and upload them to datastore. Then, we define the task as per the below mentioned code.
 
-These are the settings along their defination and reasons why we chose them for our AutoML Run:
+- **Below are the settings used for AutoML Run** :
 ```
 automl_settings = {
     "n_cross_validations": 5,
@@ -58,6 +58,6 @@ automl_config = AutoMLConfig(
     **automl_settings
     )
 ```
-<br>
+- **Below are the defination and reasons why we above settings for our AutoML Run:**
 
 ![automlsettings](https://user-images.githubusercontent.com/61888364/103489212-c975ae80-4e38-11eb-8cf8-36dca5859860.jpg)
