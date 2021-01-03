@@ -1,6 +1,6 @@
 # Parkinson's Disease Prediction Using Microsoft Azure
 ## Summary
-In this project, we have used the Parkinson's Disease Dataset that contains the biomedical voice measurements of various people. Hence, we seek to predict if a person has the disease or not by using two algorithms. The result will be binary, i.e. "0" for healthy and "1" for those with disease. We will comparing the accuracy of Hyperdrive Run with tuned hyperparameters and AutoML Run on Microsoft Azure. After comparing the performances of both algorithms, we deploy the best performing one.
+In this project, we have used the **Parkinson's Disease Dataset** that contains the biomedical voice measurements of various people. Hence, we seek to predict if a person has the disease or not by using two algorithms. We will comparing the accuracy of **Hyperdrive Run with tuned hyperparameters** and **AutoML Run** on Microsoft Azure. The result will be binary, i.e. "0" for healthy and "1" for those with disease. After comparing the performances of both algorithms, we deploy the best performing one.
 
 ![Diagram](https://user-images.githubusercontent.com/61888364/103487129-08036d00-4e29-11eb-9419-a63e83287971.png)
 
@@ -11,11 +11,13 @@ Parkinson's Disease is a brain disorder that targets the nervous system of human
 
 It is a multivarite dataset that contains the range of biomedical voice measurements of 31 people, out of which 23 had Parkinson's disease. Each column is itself a voice measure and rows correspond to 195 voice recordings from those individuals.
 
+![parkinson's stages](https://user-images.githubusercontent.com/61888364/103487967-1ce2ff00-4e2f-11eb-85f7-ee3d97d3fa6d.png)
+
 ### Citation: 
 Exploiting Nonlinear Recurrence and Fractal Scaling Properties for Voice Disorder Detection', Little MA, McSharry PE, Roberts SJ, Costello DAE, Moroz IM. BioMedical Engineering OnLine 2007, 6:23 (26 June 2007)
 
 ### Task:
-Since, its a classification task with binary output, the column "status" will be used to determine if a person is healthy, denoted by "0" or is having Parkinson's disease, denoted by "1". 
+Since, its a **classification task with binary output**, the column **"status"** will be used to determine if a person is healthy, denoted by "0" or is having Parkinson's disease, denoted by "1". 
 
 ### Attributes:
 - **Matrix column entries (attributes):**<br>
@@ -36,7 +38,8 @@ Since the dataset was available in ASCII CSV format, therefore it has been provi
 
 ## Automated ML Run
 
-Firstly, We used the TabularDatasetFactory to create a dataset from the provided link and then used the clean_data function to clean the data. Then we split the train and test sets and upload them to datastore. Then, we define the task as Classification with accurcay as primary metric and 5 n-cross validations. 
-Below are the settings along their defination and reasons why we chose them for our AutoML Run:
+Firstly, We used the **TabularDatasetFactory** to create a dataset from the provided link. Then we split the train and test sets and upload them to datastore. Then, we define the task as per the below mentioned code.
+
+These are the settings along their defination and reasons why we chose them for our AutoML Run:
 
 
