@@ -61,3 +61,6 @@ automl_config = AutoMLConfig(
 - **Below are the defination and reasons why we above settings for our AutoML Run:**
 
 ![automlsettings](https://user-images.githubusercontent.com/61888364/103489212-c975ae80-4e38-11eb-8cf8-36dca5859860.jpg)
+
+## Results of AutoML Run
+The AutoML run 
