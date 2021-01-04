@@ -34,7 +34,7 @@ Since, its a **classification task with binary output**, the column **"status"**
 - **spread1,spread2,PPE** - Three nonlinear measures of fundamental frequency variation<br>
 
 ### Access to the dataset:
-Since the dataset was available in ASCII CSV format, therefore it has been provided in this repository itself at : https://github.com/sg7801/Parkinsons-Disease-Prediction/blob/main/parkinsons.txt 
+Since the dataset was available in ASCII CSV format, therefore it has been provided in this repository itself [here](https://github.com/sg7801/Parkinsons-Disease-Prediction/blob/main/parkinsons.txt).
 
 # Automated ML Run
 
