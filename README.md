@@ -72,7 +72,7 @@ After the submission, we found that **VotingEnsemble Algorithm** resulted with t
 ![2  AML BEST MODEL](https://user-images.githubusercontent.com/61888364/103493293-7874b300-4e56-11eb-8968-acf18c0b2da5.png)
 
 - **Now, we retrieved and saved the best model**
-![3 retrieveing and saving best model](https://user-images.githubusercontent.com/61888364/103493388-fb960900-4e56-11eb-8924-14b8b57cf6ee.png)
+![3 retrieveing and saving best model](https://user-images.githubusercontent.com/61888364/103503435-32c9e180-4e7a-11eb-85ae-1f65c90d5a82.png)
 
 - **Below images show the explaination of Voting Ensemble Algorithm**
 ![4](https://user-images.githubusercontent.com/61888364/103493492-b45c4800-4e57-11eb-99d9-75d50379e658.png)
