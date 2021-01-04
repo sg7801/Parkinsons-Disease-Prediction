@@ -152,6 +152,5 @@ Link to the screencast is [here](https://drive.google.com/file/d/1i6OwsxOav1sy6a
 # Future Work:
 
 - The major areas of future improvement involve the running of the model for much longer time and trying different parameters to get even better accuracy. 
-- We can implement and use various algorithms other than Logistic Regression which might provide us better results. 
 - We can use GPU's instead of CPU's to improve the performance. Since CPU's might reduce the costs but in terms of performance and accuracy GPU's outperform CPU's.
 - We can enable Deep Learning as well in the Auto ML Experiment for better results as it will consider different patterns and algorithms. Hence, improving the accuracy.
