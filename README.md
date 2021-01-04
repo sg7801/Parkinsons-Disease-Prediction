@@ -147,7 +147,7 @@ The Best Model of Hyperdrive had **Accuracy** of **0.9056603773584906**, **Regul
 
 # Screen Recording: 
 
-Link to the screencast is [here](https://drive.google.com/file/d/1i6OwsxOav1sy6aFsuUQYrh8paMg-6PsV/view?usp=sharing)
+Link to the screencast is [here](https://drive.google.com/file/d/1i6OwsxOav1sy6aFsuUQYrh8paMg-6PsV/view?usp=sharing).
 
 # Future Work:
 
