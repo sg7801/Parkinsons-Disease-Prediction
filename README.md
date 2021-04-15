@@ -1,6 +1,6 @@
 # Parkinson's Disease Prediction Using Azure ML
 ## Summary
-In this project, we have used the **Parkinson's Disease Dataset** that contains the biomedical voice measurements of various people. Hence, we seek to predict if a person has the disease or not by using two algorithms. We will comparing the accuracy of **Hyperdrive Run with tuned hyperparameters** and **AutoML Run** on Microsoft Azure. The result will be binary, i.e. "0" for healthy and "1" for those with disease. After comparing the performances of both algorithms, we deploy the best performing one.
+In this project, we have used the **Parkinson's Disease Dataset** that contains the biomedical voice measurements of various people. Hence, we seek to predict if a person has the disease or not by using two algorithms. We will be comparing the accuracy of **Hyperdrive Run with tuned hyperparameters** and **AutoML Run** on Microsoft Azure. The result will be binary, i.e. "0" for healthy and "1" for those with the disease. After comparing the performances of both algorithms, we deploy the best performing one.
 
 ![Diagram](https://user-images.githubusercontent.com/61888364/103487129-08036d00-4e29-11eb-9419-a63e83287971.png)
 
